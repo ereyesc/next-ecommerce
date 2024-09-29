@@ -1,7 +1,6 @@
 import { fullProduct } from '@/app/interface';
 import { client } from '@/app/lib/sanity';
 import ImageGallery from '@/app/components/ImageGallery';
-import category from '@/sanity/schemaTypes/category';
 import { Button } from '@/components/ui/button';
 import { Star, Truck } from 'lucide-react';
 import AddToBag from '@/app/components/AddToBag';
