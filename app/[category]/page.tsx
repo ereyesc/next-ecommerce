@@ -1,8 +1,7 @@
 import Image from 'next/image';
-import { client, urlFor } from '../lib/sanity';
+import { client } from '../lib/sanity';
 import Link from 'next/link';
 import { simplifiedProduct } from '../interface';
-import { ArrowRight } from 'lucide-react';
 
 async function getData(category: string) {
   const query = `*[_type=='product' && category->name=='${category}']{
